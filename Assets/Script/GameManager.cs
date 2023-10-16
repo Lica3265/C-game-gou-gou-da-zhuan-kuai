@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
 
     public void CheckWinCondition()
     {
-        if (brickCount == 0)
+        if (brickCount <= 0)
         {
             winText.gameObject.SetActive(true);
             button.gameObject.SetActive(true);
